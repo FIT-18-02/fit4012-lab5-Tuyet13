@@ -1,11 +1,14 @@
-# Logs / Minh chứng
+# Logs / Evidence
 
-Thư mục này dùng để lưu minh chứng khi chạy bài lab.
+Thư mục `logs/` dùng để lưu các minh chứng trong quá trình build, chạy và kiểm thử chương trình AES-128.
 
-Ví dụ minh chứng hợp lệ:
+## Ví dụ minh chứng
 
-- `sample-run.log`: output chạy mẫu
-- `test-output.log`: output chạy `make test`
-- ảnh chụp màn hình quá trình build/run
+- `sample-run.log`  
+  Output chạy thử chương trình encrypt/decrypt.
 
-Không nên đưa dữ liệu thật, khóa thật hoặc thông tin nhạy cảm vào thư mục này.
+- `test-output.log`  
+  Output khi chạy:
+
+```bash
+make test
